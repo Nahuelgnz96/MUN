@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background-image:  url(../img/fondo.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    backdrop-filter: brightness(150%);
+    background-attachment: fixed;
+}
+
+.seccion{
+    background-image: linear-gradient(transparent, transparent, transparent, transparent), url(../img/fondo.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+.titulo{
+    /* font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-family: 'Gajraj One', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    line-height: 1.25;
+    color: #F2F0F4 !important;
+}
+
+.titulo2{
+    /* font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-family: 'Gajraj One', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    line-height: 1.25;
+    color: #F2F0F4 !important;
+}
+
+.card-titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.25;
+    color: #F2F0F4 !important;
+}
+
+.card-texto{
+    font-size: 1em;
+    line-height: 1.6;
+    font-family: 'Heebo', sans-serif;
+}
+
+.parrafo{
+    font-family: 'Heebo', sans-serif;
+    font-size: 1em;
+    line-height: 1.6;
+}
